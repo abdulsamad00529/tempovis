@@ -1,0 +1,54 @@
+# Version control
+.git
+.gitignore
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv
+venv
+env/
+
+# Environment files (never bake secrets into images)
+.env
+.env.*
+!.env.example
+
+# Test & dev artefacts
+.pytest_cache
+.mypy_cache
+.ruff_cache
+htmlcov/
+.coverage
+coverage.xml
+
+# Local data (mounted as volumes in compose)
+data/plots/
+data/*.pkl
+data/*.parquet
+benchmarks/results.json
+benchmarks/summary.json
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docs (not needed at runtime)
+README.md
+docs/
+
+# CI
+.github/
