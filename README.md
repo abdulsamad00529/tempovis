@@ -251,5 +251,5 @@ MIT — see [LICENSE](LICENSE) for details.
 
 ---
 
-*Built by Rauf Mughal · Inspired by Google DeepMind research ·
+*Built by Abdul Samad · Inspired by Google DeepMind research ·
 Star the repo if this is useful ⭐*
